@@ -60,7 +60,6 @@ rm temp2.txt
 rm VVSHaltestellen.txt
 # Adapt the following array if needed
 array=(Hauptbahnhof, Herrenberg, Flughafen, Filderstadt, Kirchheim, Schorndorf, Waiblingen, Backnang, Bietigheim, Weil der Stadt, Böblingen)
-#array=(Herrenberg)
 for i in "${array[@]}"
 do
     rm temp.txt
